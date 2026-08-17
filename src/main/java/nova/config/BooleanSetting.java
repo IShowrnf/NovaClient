@@ -1,0 +1,7 @@
+package nova.config;
+
+public final class BooleanSetting extends Setting<Boolean> {
+    public BooleanSetting(String name, boolean defaultValue) {
+        super(name, defaultValue);
+    }
+}
